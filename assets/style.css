@@ -37,6 +37,11 @@ section {
 	width: 80%;
 	color: white;
 }
+section dl {
+	padding-left: 30px;
+	display: block;
+	margin: 2em 2em 2em 2em;
+}
 section a {
 	color: white;
 }
