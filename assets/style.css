@@ -37,6 +37,13 @@ section {
 	width: 80%;
 	color: white;
 }
+article {
+	padding-left: 30px;
+}
+article a {
+	text-decoration: none;
+	color: white;
+}
 aside {
 	float: right;
 	padding: 10px 20px 10px 20px;
