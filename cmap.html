@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			#map {
+			height: 400px;
+			width: 100%;
+			background-color: grey;
+			}
+		</style>
+	</head>
+	<body>
+		<h3>Cincinnati Plow Data</h3>
+		<div id="map"></div>
+		<script>
+			function initMap() {
+				var uluru = {lat: 39.197478, lng: -84.485135};
+				var map = new google.maps.Map(document.getElementById('map'), {
+					zoom: 10,
+					center: uluru
+				});
+			}
+		</script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1tXxQbvlHEAz3vN7c34TbKK87usb74Dc&callback=initMap">
+		</script>
+	</body>
+</html>
