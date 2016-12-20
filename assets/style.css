@@ -68,6 +68,8 @@ header, footer {
 header {
 	text-align: left;
 	color: #CC6633;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
 }
 footer {
 	position: absolute;
@@ -81,4 +83,6 @@ footer {
 	font-variant: small-caps;
 	font-size: 16px;
 	letter-spacing:	1px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
