@@ -46,11 +46,6 @@ section a:visited {
 article {
 	padding-left: 30px;
 }
-article a {
-	text-decoration: none;
-	color: white;
-}
-
 article p {
 	padding-left: 15px;
 }
