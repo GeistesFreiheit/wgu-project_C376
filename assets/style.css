@@ -37,6 +37,12 @@ section {
 	width: 80%;
 	color: white;
 }
+section a {
+	color: white;
+}
+section a:visited {
+	color: gray;
+}
 article {
 	padding-left: 30px;
 }
@@ -44,6 +50,7 @@ article a {
 	text-decoration: none;
 	color: white;
 }
+
 article p {
 	padding-left: 15px;
 }
