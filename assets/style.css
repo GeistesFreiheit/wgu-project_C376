@@ -59,6 +59,7 @@ aside {
 	float: right;
 	padding: 10px 20px 10px 20px;
 	color: #ac7153;
+	max-width: 400px;
 }
 header, footer {
 	padding: 1rem;
