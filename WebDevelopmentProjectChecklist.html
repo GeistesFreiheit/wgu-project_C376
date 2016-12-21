@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Web Development Project Checklist</title>
+<style type="text/css">
+body {
+	font-family:Arial, Helvetica, sans-serif
+}
+#container{
+	max-width:700px;
+	margin:auto;
+}
+ol li{
+	 list-style-type:upper-alpha;
+	 padding:40px 0px 0px 0px;
+	 font-weight:bold;
+	 color:navy;
+	 font-size:22px;
+}
+ol li li{
+	 list-style-type:decimal;
+	 padding:5px;
+	 color:gray;
+	 font-size:18px;
+}
+ol li li li{
+	 list-style-type:lower-alpha;
+	 padding:5px;
+	 color:maroon;
+	 background:#eee;
+	 margin-top:8px;
+	 font-size:14px;
+}
+ol.list li{
+	 padding:5px;
+	 color:maroon;
+	 background:#eee;
+	 margin-top:8px;
+	 font-size:14px;
+}
+ol.checklist li{
+	list-style-type:none;
+	font-weight:normal;
+	color:black;
+	margin-left:-25px;
+}
+span.link a {
+	font-size: 12px;
+	color:grey;
+	float:right;
+	background:white;
+	border-radius:5px;
+	border:1px solid grey;
+	padding:5px;
+	text-decoration:none;
+}
+span.link a:hover {
+	background:maroon;
+	color:white;
+	box-shadow: -2px 2px 1px #888888;
+}
+input.submitbutton {
+	padding:10px;
+	text-align:center;
+	margin:50px auto;
+	display:block;
+}
+</style>
+</head>
+
+<body>
+<div id="container">
+    <h3 style="text-align:center;">Project in Web Development Fundamentals (UG, YZT-0616)</h3>
+<form action="https://dl.dropboxusercontent.com/s/yu04w6st8ul8xb9/success.html?dl=0" method="get">
+<ol>
+	<li>Site Template<ol>
+		<li> Include the following Semantic Elements in each of your HTML documents:
+		<ol>
+			<li>Header <span class="link"><a href="http://www.w3schools.com/tags/tag_header.asp" target="_blank">learn about the header tag</a></span> <ol class="checklist">
+				<li><input type="checkbox" required> Do you have the semantic &lt;header&gt; element within the &lt;body&gt; of your page?</li>
+				<li><input type="checkbox" required> Does your &lt;header&gt; contain a statement describing the overall site topic?</li>
+			</ol>
+			</li>
+			<li>Nav <span class="link"><a href="http://www.w3schools.com/tags/tag_nav.asp" target="_blank">learn about the nav tag</a></span> 
+			<ol class="checklist">
+				<li><input type="checkbox" required> Do you have the semantic &lt;nav&gt; element wrapping your navigation links?</li>
+				<li><input type="checkbox" required> Do you have links on each page that take you to all other pages?</li>
+			</ol></li>
+			<li>Section <span class="link"><a href="http://www.w3schools.com/tags/tag_section.asp" target="_blank">learn about the section tag</a></span> 
+			<ol class="checklist">
+				<li><input type="checkbox" required> Is your main content wrapped in the semantic &lt;section&gt; element?</li>
+				<li><input type="checkbox" required> Is the &lt;section&gt; located in the same place on each page?</li>
+			</ol></li>
+			<li>Aside <span class="link"><a href="http://www.w3schools.com/tags/tag_aside.asp" target="_blank">learn about the aside tag</a></span> 
+			<ol class="checklist">
+				<li><input type="checkbox" required> Is your secondary content wrapped in the semantic &lt;aside&gt; element?</li>
+				<li><input type="checkbox" required> Is the &lt;aside&gt; present on each page?</li>
+				<li><input type="checkbox" required> Is the &lt;aside&gt; located in the same place on each page?</li>
+				<li><input type="checkbox" required> Is the content within the &lt;aside&gt; relevant to that page's topic?</li>
+			</ol></li>
+		</ol>
+		</li>
+		<li>Design your template with a consistent look and feel by using each 
+		of the following elements:
+		<ol>
+			<li>External Style Sheet <span class="link"><a href="http://www.w3schools.com/tags/tag_link.asp" target="_blank">learn about the link tag</a></span>
+			<ol class="checklist">
+				<li><input type="checkbox" required> Is all of your CSS code stored in an external style sheet?</li>
+				<li><input type="checkbox" required> Does every page link to the same style sheet?</li>
+				<li><input type="checkbox" required> Have you validated your CSS code to ensure there are no errors?</li>
+			</ol></li>
+			<li>Float Property <span class="link"><a href="http://www.w3schools.com/cssref/pr_class_float.asp" target="_blank">learn about the float property</a></span> 
+			<ol class="checklist">
+				<li><input type="checkbox" required> Have you used the float property within your CSS stylesheet?</li>
+				<li><input type="checkbox" required> Does the application of the float property result in two objects arranged side-by-side?</li>
+			</ol></li>
+			<li>Absolute Positioning <span class="link"><a href="http://www.w3schools.com/css/css_positioning.asp" target="_blank">learn about absolute positioning</a></span> 
+			<ol class="checklist">
+				<li><input type="checkbox" required> Have you used position:absolute in your CSS stylesheet?</li>
+				<li><input type="checkbox" required> Have you used an offset property (top, right, bottom, left) to adjust where the element is being positioned?</li>
+			</ol></li>
+			<li>Relative Positioning <span class="link"><a href="http://www.w3schools.com/css/css_positioning.asp" target="_blank">learn about relative positioning</a></span>  
+			<ol class="checklist">
+				<li><input type="checkbox" required> Have you used position:relative in your CSS stylesheet?</li>
+				<li><input type="checkbox" required> If you remove position:relative from your stylesheet do you see a visible change in how the page renders? </li>
+			</ol></li>
+			<li>:hover Pseudo Class <span class="link"><a href="http://www.w3schools.com/cssref/sel_hover.asp" target="_blank">learn about the hover selector</a></span> 
+			<ol class="checklist">
+				<li><input type="checkbox" required> When you move your mouse over the navigation links is there a visible change to their appearance?</li>
+			</ol></li>
+			
+			<li>Articulation of Response (clarity, organization, mechanics)
+			<ol class="checklist">
+				<li><input type="checkbox" required> Did you spell check each page?</li>
+				<li><input type="checkbox" required> Is your text content written in grammatically correct sentences?</li>
+			</ol></li>
+		</ol></li>
+	</ol>
+	</li>
+	<li>Create at least four web pages of content for your website, using the template from part A.<ol>
+		<li>Include the following HTML items in the content of your website:<ol>
+			<li>Title <span class="link"><a href="http://www.w3schools.com/tags/tag_title.asp" target="_blank">learn about the title tag</a></span> <ol class="checklist">
+				<li><input type="checkbox" required> Is the &lt;head&gt; of the document have you used the &lt;title&gt; element on each page? (note, this is different than the &lt;header&gt; element from section A.
+				</li>
+				<li><input type="checkbox" required> Is your &lt;title&gt; unique on each page?</li>
+				<li><input type="checkbox" required> Does your &lt;title&gt; describe what each page's topic is?</li>
+			</ol>
+			</li>
+			<li>Images <span class="link"><a href="http://www.w3schools.com/tags/tag_img.asp" target="_blank">learn about the image tag</a></span> <ol class="checklist">
+				<li><input type="checkbox" required> Does your site include at least one &lt;img&gt;?</li>
+				<li><input type="checkbox" required> Does each image have an ALT attribute that describes what the image 
+	represents?</li>
+			</ol>
+			<li>Links <span class="link"><a href="http://www.w3schools.com/tags/att_a_target.asp" target="_blank">learn about the anchor tag</a></span> <ol class="checklist">
+				<li><input type="checkbox" required> Do you have a link that directs you to another website?</li>
+				<li><input type="checkbox" required> Does that link utilize the TARGET attribute?</li>
+				<li><input type="checkbox" required> When you click the link does it open in a new window or tab?</li>
+			</ol>
+			</li>
+			<li>One Ordered List <span class="link"><a href="http://www.w3schools.com/tags/tag_ol.asp" target="_blank">learn about ordered lists</a></span> <ol class="checklist">
+				<li><input type="checkbox" required> Have you used on ordered list within your site?</li>
+				<li><input type="checkbox" required> Does the ordered list have at least 3 list items?</li>
+			</ol>
+			</li>
+			<li>One Unordered List <span class="link"><a href="http://www.w3schools.com/tags/tag_ul.asp" target="_blank">learn about unordered lists</a></span> <ol class="checklist">
+				<li><input type="checkbox" required> Have you used on unordered list within your site?</li>
+				<li><input type="checkbox" required> Does the unordered list have at least 3 list items?</li>
+			</ol>
+			</li>
+			<li>One Table <span class="link"><a href="http://www.w3schools.com/tags/tag_table.asp" target="_blank">learn about tables</a></span> <ol class="checklist">
+				<li><input type="checkbox" required> Does your site have at least one &lt;table&gt;?</li>
+			</ol>
+			</li>
+		</ol>
+		</li>
+		<li>Include the following CSS rules to enhance your website content:
+		<ol>
+			<li>Color and Font Changes<ol class="checklist">
+				<li><input type="checkbox" required> Have you changed the appearance of fonts at least once within your CSS stylesheet? (this could include color changes, font-family, font-weight, font-size, etc.)</li>
+			</ol>
+			</li>
+			<li>Type Selector <span class="link"><a href="http://www.w3schools.com/cssref/sel_element.asp" target="_blank">learn about type or element selectors</a></span> <ol class="checklist">
+				<li><input type="checkbox" required> Does your CSS stylesheet contain at least one rule that target an HTML element using the tag's name (e.g., p, table, th, td, ul, ol, li, h1-h6, a)</li>
+			</ol>
+			</li>
+			<li>Class Selector <span class="link"><a href="http://www.w3schools.com/cssref/sel_class.asp" target="_blank">learn about class selectors</a></span> <ol class="checklist">
+				<li><input type="checkbox" required> Does your CSS stylesheet contain a rule for a class selector?</li>
+				<li><input type="checkbox" required> Have you applied the that class selector at least two times  within the HTML of your site?</li>
+			</ol>
+			</li>
+			<li>ID Selector <span class="link"><a href="http://www.w3schools.com/cssref/sel_id.asp" target="_blank">learn about ID selectors</a></span> <ol class="checklist">
+				<li><input type="checkbox" required> Does your CSS stylesheet contain at least one rule for an ID selector?</li>
+				<li><input type="checkbox" required> Have you applied that ID selector at least once within the HTML?</li>
+			</ol>
+			</li>
+		</ol>
+		</li>
+	</ol>
+	</li>
+	<li>Website Hosting<ol>
+		<li>		Include the following in the hosted website you created in parts A, B, and C:
+		<ol>
+			<li>CSS Applied to HTML<ol class="checklist">
+				<li><input type="checkbox" required> Does the site layout look the same as it did on your local machine?
+				</li>
+			</ol>
+			</li>
+			<li>Images Correctly Displayed<ol class="checklist">
+				<li><input type="checkbox" required> Do all of your images display on the online website?</li>
+			</ol>
+			</li>
+			<li>Functionality of Links<ol class="checklist">
+				<li><input type="checkbox" required> Do all of your links work properly on the online website?</li>
+			</ol>
+			</li>
+			<li>Functionality of Rollover Effects<ol class="checklist">
+				<li><input type="checkbox" required> Does your navigation function properly on the online website?</li>
+			</ol>
+			</li>
+			<li>Navigation<ol class="checklist">
+				<li><input type="checkbox" required> Is your navigation function properly on the online website?</li>
+			</ol>
+			</li>
+		</ol>
+		</li>
+	</ol>
+	</li>
+	<li>Student Project Submission Form<ol class="list">
+		<li>Website URL<ol class="checklist">
+			<li><input type="checkbox" required> Have you included the URL to your online website?</li>
+		</ol>
+		</li>
+		<li>Browser<ol class="checklist">
+			<li><input type="checkbox" required> Did you list the specific version of your web browser (i.e. Firefox 
+	32.2)?</li>
+		</ol>
+		</li>
+		<li>Layout Template Sketch<ol class="checklist">
+			<li><input type="checkbox" required> Does your sketch identify where the &lt;header&gt;, &lt;nav&gt;, &lt;section&gt;, and 
+	&lt;aside&gt; are located on each page?</li>
+			<li><input type="checkbox" required> Have you labeled the areas of your layout so that they match with the 
+	semantic HTML elements used (header, navigation, section, aside)?</li>
+		</ol>
+		</li>
+	</ol>
+	</li>
+	<li>Zipped File Submission</li>
+	<ol class="checklist list">
+		<li><ol class="checklist list">
+		<li><input type="checkbox" required> Do you have a ZIP file that contains all of your HTML, CSS, images, and 
+	the student project submission form?</li>
+	</ol></li>
+	</ol>
+	<li>Sources<ol class="checklist list">
+		<li><ol class="checklist list">
+			<li><input type="checkbox" required> Did you paraphrase or copy text from another resource?</li>
+			<li><input type="checkbox" required> Did you use images that weren't explicitly marked as OK for reuse?</li>
+			<li>If you answered yes to either question, did you include in-text citations? Be sure that your citations are properly <a href="https://srm--c.na13.visual.force.com/apex/coursearticle?Id=kA0a0000000x0JmCAI" target="_blank">formatted in APA format</a>.<br />
+			</li>
+		</ol>
+		</li>
+	</ol>
+	</li>
+</ol>
+
+<input class="submitbutton" type="submit" value="I am finished with my project!!">
+</form>
+</div>
+</body>
+
+</html>
