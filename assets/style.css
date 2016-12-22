@@ -30,6 +30,7 @@ nav li a.active {
 }
 body {
 	background-color: #242423;
+	color: #cfdbd5;
 	position: relative;
 	padding-bottom: 6em;
 	min-height: 600px;
@@ -43,6 +44,13 @@ section dl {
 	padding-left: 30px;
 	display: block;
 	margin: 2em 2em 2em 2em;
+}
+section dl dt {
+	font-weight: bold;
+	color: #f5cb5c;
+}
+section dl dd {
+	margin: 0.5em;
 }
 section a {
 	color: white;
