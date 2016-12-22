@@ -72,6 +72,7 @@ header {
 	color: #2b2d42;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
+	border-bottom-left-radius: 5px;
 }
 footer {
 	position: absolute;
@@ -87,4 +88,6 @@ footer {
 	letter-spacing:	1px;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 }
