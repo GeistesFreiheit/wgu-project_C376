@@ -6,8 +6,9 @@ nav {
 	border-bottom-right-radius: 5px;
 	border-color: #f5cb5c;
 	border-top-style: none;
-	width: 110px;
+	width: 115px;
 	background-color: #e8eddf;
+	font-family: 'Aref Ruqaa', serif;
 }
 nav ul {
 	list-style-type: none;
@@ -73,6 +74,7 @@ header {
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	border-bottom-left-radius: 5px;
+	font-family: 'Righteous', cursive;
 }
 footer {
 	position: absolute;
