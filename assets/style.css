@@ -8,8 +8,9 @@ nav {
 	border-top-style: none;
 	width: 115px;
 	background-color: #e8eddf;
-	font-family: 'Aref Ruqaa', serif;
 }
+/* Unused Font: */
+/* font-family: 'Aref Ruqaa', serif; */
 nav ul {
 	list-style-type: none;
 	margin: 0;
