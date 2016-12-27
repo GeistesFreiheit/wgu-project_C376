@@ -42,16 +42,22 @@ section {
 	color: white;
 }
 section dl {
-	padding-left: 30px;
-	display: block;
-	margin: 2em 2em 2em 2em;
+	padding: 0.5em;
 }
 section dl dt {
 	font-weight: bold;
 	color: #f5cb5c;
+	float: left;
+	clear: left;
+	width: 100px;
+	text-align: right;
 }
-section dl dd {
-	margin: 0.5em;
+section dd {
+	margin: 0 0 0 110px;
+	padding: 0 0 0.5em 0;
+}
+section dl dt:after {
+	content: ":";
 }
 section a {
 	color: white;
