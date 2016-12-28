@@ -6,6 +6,7 @@
 - [x] Add a table
 - [ ] Make sure the aside element is present on all pages
 - [ ] Review check list & add any missing items here
+- [ ] Validate HTML
 - [ ] Spell check all pages
 - [ ] Publish final copy of site to student hosting
 - [ ] Download zip of Master Branch
