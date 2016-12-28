@@ -75,7 +75,15 @@ aside {
 	float: right;
 	padding: 10px 20px 10px 20px;
 	color: #f5cb5c;
-	max-width: 400px;
+	max-width: 250px;
+}
+aside img {
+	float: left;
+	padding-right: 0.5em;
+}
+aside a{
+	text-decoration: none;
+	color: white;
 }
 header, footer {
 	padding: 1rem;
@@ -107,4 +115,21 @@ footer {
 	border-bottom-right-radius: 15px;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
+}
+table {
+	border: 1px solid #f5cb5c;
+}
+th {
+	background-color: #f5cb5c;
+	color: #2b2d42;
+	text-transform: uppercase;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+td#spotify {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+td#play {
+	text-align: center;
 }
