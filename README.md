@@ -3,7 +3,7 @@
 
 ### TODO:
 - [x] Make a scetch
-- [ ] Add a table
+- [x] Add a table
 - [ ] Make sure the aside element is present on all pages
 - [ ] Review check list & add any missing items here
 - [ ] Spell check all pages
