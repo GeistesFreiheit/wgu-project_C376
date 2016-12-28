@@ -4,8 +4,8 @@
 ### TODO:
 - [x] Make a scetch
 - [x] Add a table
-- [ ] Move table to above Spotify playlist
-- [ ] Make sure the aside element is present on all pages
+- [x] Move table to above Spotify playlist
+- [x] Make sure the aside element is present on all pages
 - [ ] Review check list & add any missing items here
 - [ ] Validate HTML
 - [ ] Spell check all pages
