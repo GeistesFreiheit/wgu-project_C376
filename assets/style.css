@@ -9,6 +9,9 @@ nav {
 	width: 115px;
 	background-color: #e8eddf;
 }
+#content {
+	font-family: 'Lora',serif;
+}
 nav ul {
 	list-style-type: none;
 	margin: 0;
@@ -62,6 +65,9 @@ section a {
 }
 section a:visited {
 	color: gray;
+}
+p.eyeTALIK {
+	font-style: italic;
 }
 article {
 	padding-left: 30px;
