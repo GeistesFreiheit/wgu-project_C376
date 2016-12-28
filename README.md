@@ -9,7 +9,7 @@
 - [ ] Review check list & add any missing items here
 - [x] Add OL
 - [x] Add UL
-- [ ] Re-validate HTML on Contact
+- [x] Re-validate HTML on Contact
 - [ ] Spell check Contact
 - [ ] Publish final copy of site to student hosting
 - [ ] Download zip of Master Branch
